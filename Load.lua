@@ -1,5 +1,6 @@
 local GameLoad = nil
-if game.PlaceId ==  87039211657390 then
+local PlaceId,GameId = game.PlaceId,game.GameId
+if GameId ==  7074860883 then
     GameLoad = "AriseC"
 end
 local var,err = pcall(function ()
