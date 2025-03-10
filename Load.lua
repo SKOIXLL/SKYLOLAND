@@ -3,7 +3,7 @@ if game.PlaceId ==  87039211657390 then
     GameLoad = "AriseC"
 end
 local var,err = pcall(function ()
-    loadstring(game:HttpGet("https://github.com/SKOIXLL/SKYLOLAND/main/" .. GameLoad .. ".lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SKOIXLL/SKYLOLAND/refs/heads/main/" .. GameLoad .. ".lua"))()
 end)
 
 if var == false  then
