@@ -1,5 +1,5 @@
 local GameLoad = nil
-eif game.PlaceId ==  87039211657390 then
+if game.PlaceId ==  87039211657390 then
     GameLoad = "Arise Crossover"
 end
 local var,err = pcall(function ()
