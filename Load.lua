@@ -1,5 +1,5 @@
 repeat  task.wait() until game:IsLoaded()
-
+if _G.Executed then return true end _G.Executed = true
 local GameLoad = nil
 local PlaceId,GameId = game.PlaceId,game.GameId
 if GameId ==  7074860883 then
